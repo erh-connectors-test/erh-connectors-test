@@ -5,3 +5,9 @@ export function discountedPrice(price: number, discountPercent: number): number 
   }
   return price * (1 - discountPercent / 100);
 }
+
+/** Members get 10% off, and an extra 5% when the order is over 10,000. */
+export function memberPrice(price: number): number {
+  const discount = price > 10000 ? 15 : 10;
+  return discountedPrice(price, discount * 100);
+}
