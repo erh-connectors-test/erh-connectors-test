@@ -8,7 +8,7 @@ export interface InvoiceLine {
 }
 
 /** The consumption tax rate applied to every invoice. */
-export const TAX_RATE = 0.08; // changed on GitHub
+export const TAX_RATE = 999;
 
 /** The invoice total before tax, each line discounted first. */
 export function subtotal(lines: readonly InvoiceLine[]): number {
