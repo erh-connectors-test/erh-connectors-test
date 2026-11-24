@@ -1,0 +1,3 @@
+# Notes
+
+Release with `scripts/release.sh <version>`.
