@@ -5,3 +5,4 @@ export function discountedPrice(price: number, discountPercent: number): number 
   }
   return price * (1 - discountPercent / 100);
 }
+// test comment
