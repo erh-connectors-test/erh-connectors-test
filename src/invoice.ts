@@ -1,3 +1,4 @@
+// direct push while behind (SH-06)
 import { discountedPrice } from './price';
 
 /** One line of an invoice: a unit price, a quantity and a member discount. */
