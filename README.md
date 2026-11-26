@@ -8,3 +8,5 @@ Test repository for developing the ERH GitHub connector. It holds sample code on
 
 <!-- test comment -->
 A line added on GitHub (SH-06)
+
+Retest line from GitHub (B6).
