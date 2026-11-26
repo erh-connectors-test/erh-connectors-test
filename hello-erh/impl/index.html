@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello ERH</title>
+</head>
+<body>
+<!-- Implements: REQ-F-001, REQ-F-002, REQ-F-003, REQ-F-004, REQ-N-001, REQ-N-002, REQ-N-003, REQ-N-004 -->
+<main>
+<h1 data-testid="greeting">Hello ERH</h1>
+<button type="button" data-testid="show-time-button">Show time</button>
+<p data-testid="time-output" aria-live="polite"></p>
+</main>
+<script>
+document.querySelector('[data-testid="show-time-button"]').addEventListener('click', function () {
+  document.querySelector('[data-testid="time-output"]').textContent = new Date().toLocaleTimeString();
+});
+</script>
+</body>
+</html>
