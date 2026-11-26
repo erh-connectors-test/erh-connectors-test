@@ -7,3 +7,4 @@ Test repository for developing the ERH GitHub connector. It holds sample code on
 `src/invoice.ts` totals an invoice: each line is discounted, then tax is added.
 
 <!-- test comment -->
+A line added on GitHub (SH-06)
