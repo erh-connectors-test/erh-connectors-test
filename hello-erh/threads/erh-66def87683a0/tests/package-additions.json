@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test:l1": "node --test tests/unit/*.test.js",
+    "test:l3": "playwright test tests/e2e/",
+    "test:l4": "playwright test tests/smoke/"
+  },
+  "devDependencies": { "@playwright/test": "^1.64.1" }
+}
