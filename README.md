@@ -10,3 +10,5 @@ Test repository for developing the ERH GitHub connector. It holds sample code on
 A line added on GitHub (SH-06)
 
 Retest line from GitHub (B6).
+
+B11 retest line (Standby).
